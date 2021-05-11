@@ -2,6 +2,7 @@
 
 using namespace std;
 int main() {
+ 
   int num=0; /* Se crea una variable en la cual vamos a guardar el numero que deseamos convertir a  texto */
   
   cout<<"Digite un número entre 1 y 999"<< endl; /* Se despliega un mensaje al usuario que debe de digitar un numero y el rango que debe de pertenecer */
@@ -226,7 +227,7 @@ int main() {
   else{ // si no se ditita un numero en el rango [0, 999]
     cout<<num<<" No es un número valido"<<endl; // imprime el número que digito el usuario y le indica que no es valido
     cout<<"Favor de digitar un número del rango permitido 1 a 999 "<<endl; // le solicita que ingrese un nuero ente el rango permitido.
-    main (); // reinicia el programa para que el usuario ingrese un numero valido, unicamente si se coloca un numero fuera del rango. si el numero es dentro del rango ejecuta el programa una unica vez
+    main (); // reinicia el programa para que el usuario ingrese un numero valido, unicamente si se coloca un numero fuera del rango. si el numero es dentro del rango ejecuta el programa una unica vez.
 
   }
     
